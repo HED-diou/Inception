@@ -1,0 +1,12 @@
+db_name=hed_db
+db_user=hed
+db_pass=123
+
+wp_admin=hed
+wp_pass=123
+wp_title=Wordpress
+
+reg_user=user
+reg_pass=123
+
+DOMAIN_NAME=hed-diou.42.fr
