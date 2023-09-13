@@ -4,7 +4,7 @@ all:
 	@printf "Building configuration ${name}...\n"
 	mkdir -p /home/hed-diou/data/mariadb
 	mkdir -p /home/hed-diou/data/wordpress
-	@docker-compose -f ./srcs/docker-compose.yml up --build
+	@docker-compose -f ./srcs/docker-compose.yml up --build -d
 
 down:
 	@printf "Stopping configuration ${name}...\n"

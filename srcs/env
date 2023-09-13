@@ -9,4 +9,7 @@ wp_title=Wordpress
 reg_user=user
 reg_pass=123
 
+reg_user2=user2
+reg_pass2=123
+
 DOMAIN_NAME=hed-diou.42.fr

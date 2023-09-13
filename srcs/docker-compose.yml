@@ -31,7 +31,7 @@ services:
     networks:
       - inception
     env_file:
-      - .env
+      - env
     volumes:
       - wordpress_volume:/var/www/html
     restart: always
@@ -46,7 +46,7 @@ services:
     networks:
       - inception
     env_file:
-      - .env
+      - env
     volumes:
       - mariadb_volume:/var/lib/mysql
     restart: on-failure
